@@ -1,0 +1,10 @@
+<p>
+  student works!
+</p>
+{{fname+' '+lname+" age = "+age}} 
+<input type="text" [disabled]="isactive" (keyup.enter)="txtclick($event)">
+{{txtname}}
+<img [src]="imgsrc" [alt]="imgalt">
+<button type="button" (click)="btnclick($event)">click me</button>
+<input #nameref type="text" [disabled]="isactive" (keyup.enter)="txtclick2(nameref.value)">
+{{txtname2}}

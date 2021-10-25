@@ -1,0 +1,155 @@
+<!--The content below is only a placeholder and can be replaced.
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+</div>
+<h2>Here are some links to help you start: </h2>
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
+<div app-home></div>
+<app-student> mmm</app-student> -->
+<!--<app-studenttemp></app-studenttemp>
+-->
+<!--<app-department></app-department>-->
+<!--<nav><li><a routerLink="/" >Home</a></li><li><a routerLink="/student">student</a></li><li><a routerLink="/parent">parent</a></li><li><a routerLink="/child">child</a></li></nav>
+<router-outlet></router-outlet>
+<div ><app-students></app-students>
+</div>-->
+
+<!--------------------------------start navbar--------------------------------------><nav class="navbar navbar-expand-lg navbar-dark  bg-success">
+  <div class="container">
+  <a class="navbar-brand navbar-outline-light fontsize" routerLink="/" ><img width="50" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+    NGULAR</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse navbar-dark " id="navbarSupportedContent ">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item " >
+        <a class="navbar-brand a-outline-light" routerLink="/features" alt="Features">Features <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="navbar-brand" routerLink="/does" alt="Does">Does<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item " >
+        <a class="navbar-brand" routerLink="/resources" alt="Resources">Resources <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item " >
+        <a class="navbar-brand" routerLink="/events" alt="Events">Events <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item " >
+        <a class="navbar-brand" href="https://blog.angular.io/" alt="Blog">Blog <span class="sr-only">(current)</span></a>
+      </li>
+    
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</div>
+</nav>
+
+<!--------------------------------end navbar-------------------------------------->
+<router-outlet></router-outlet>
+<!--------------------------------start footer-------------------------------------->
+
+
+
+
+
+
+
+
+<div class="bg-success highttopbottom  text-center text-white line-height" style="margin-bottom:0">
+<div class="container">
+  
+<div class="row  highttopbottom">
+  <div class="col-3"></div>
+  <!--col1-->
+<div class="col-2">
+  <p>
+RESOURCES
+  </p>
+  <!--links-->
+  <a href="#">
+    About
+  </a><br><a href="#">
+      Resource Listing
+        </a><br><a href="#">
+           Press Kit
+              </a><br><a href="#">
+                 Blog
+                    </a>
+</div>
+  <!--col2-->
+
+<div class="col-2">
+    <p>
+      HELP
+      </p>
+      <!--links-->
+      <a href="#">
+          Stack Overflow
+      </a><br><a href="#">
+          Resource Listing
+            </a><br><a href="#">
+                Gitter
+                  </a><br><a href="#">
+                      Code of Conduct
+                        </a></div>
+  <!--col3-->
+
+<div class="col-2">
+    <p>
+        COMMUNITY
+          </p>
+      <!--links-->
+      <a href="#">
+          Events
+
+      </a><br><a href="#">
+            Meetups
+            </a><br><a href="#">
+                Twitter
+                  </a><br><a href="#">
+                      GitHub
+                        </a><br><a href="#">
+                            Contribute
+                              </a></div>
+  <!--col4-->
+
+<div class="col-2"><p>
+    LANGUAGES
+      </p>
+      <!--links-->
+      <a href="#">
+          中文版
+      </a><br><a href="#">
+          日本語版
+            </a><br><a href="#">
+                한국어
+                  </a></div>
+                  <div class="col-3"></div>
+
+</div>
+</div>
+
+
+  <p>uper-powered by Google ©2010-2019. Code licensed under an MIT-style License. Documentation licensed under <a class="footerlink" href="#">CC BY 4.0.</a><br>Version 7.2.8-local+sha.c938fb4.</p>
+</div>
+<!--------------------------------end footer-------------------------------------->

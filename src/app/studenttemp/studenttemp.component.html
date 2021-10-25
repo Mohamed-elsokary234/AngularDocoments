@@ -1,0 +1,71 @@
+<table class="table table-bordered table-hover">
+  <thead class="thead-inverse">
+    <tr>
+      <th>id</th>
+      <th>dd</th>
+      <th>dd</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td scope="row">dd</td>
+        <td>dd</td>
+        <td>dd</td>
+      </tr>
+      <tr>
+        <td scope="row">dddd</td>
+        <td>dd</td>
+        <td>cc</td>
+      </tr>
+    </tbody>
+</table>
+<div class="alert alert-warning" role="alert">
+  A simple warning alert—check it out!
+</div>
+<div  [appAppHighLight]="'#111'">...................This My First App. kjjkjjhhhaj yuuuuuuuyy</div>
+<div [appAppHighLight]="'#000'">...................This My First App. kjjkjjhhhaj yuuuuuuuyy</div>
+<div [appAppHighLight]="'#222'">...................This My First App. kjjkjjhhhaj yuuuuuuuyy</div>
+<div [appAppHighLight]="'#333'">...................This My First App. kjjkjjhhhaj yuuuuuuuyy</div>
+<div [appAppHighLight]="'#444'">...................This My First App. kjjkjjhhhaj yuuuuuuuyy</div>
+<div [appAppHighLight]="'#555'">...................This My First App. kjjkjjhhhaj yuuuuuuuyy</div>
+<div [appAppHighLight]="'#666'">...................This My First App. kjjkjjhhhaj yuuuuuuuyy</div>
+<div [appAppHighLight]="'#777'">...................This My First App. kjjkjjhhhaj yuuuuuuuyy</div>
+<div [appAppHighLight]="'#888'">...................This My First App. kjjkjjhhhaj yuuuuuuuyy</div>
+<div [appAppHighLight]="'#999'">...................This My First App. kjjkjjhhhaj yuuuuuuuyy</div>
+<span class="badge badge-primary">Primary</span>
+<span class="badge badge-secondary">Secondary</span>
+<span class="badge badge-success">Success</span>
+<span class="badge badge-danger">Danger</span>
+<span class="badge badge-warning">Warning</span>
+<span class="badge badge-info">Info</span>
+<span class="badge badge-light">Light</span>
+<span class="badge badge-dark">Dark</span>
+<h1>{{name|capitalcase}}</h1>
+<input type="text" [(ngModel)]="name1">
+<button (click)="additem()">add</button> 
+
+<ul >
+  <li *ngFor="let item of (students|startwith)">{{item}}</li>
+</ul>
+<ul >
+  <li *ngFor="let item of students">{{item}}</li>
+</ul>
+<p>
+  studenttemp works!vvvcvc
+  {{8843|exp:5:8}}
+</p>
+<input [(ngModel)]="txtname3" type="text">{{txtname3}}
+student<h1>
+  {{std1.ID}}:{{std1.Name|uppercase}}:{{std1.Age}}
+<hr>
+  {{salary|number:'1-1.0-1'}}
+</h1>shortDate
+<h1>{{bdate|date:'shortDate'}}</h1>
+fullDate
+<h1>{{bdate|date:fda}}</h1>
+<h1>{{fdate}}</h1>
+<select [(ngModel)]="fdate">
+  <option value="fullDate">full Date</option>
+  <option value="shortDate">short Date</option>
+  <option value="dd/MM/yyyy">cust date</option>
+</select>

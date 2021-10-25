@@ -1,0 +1,38 @@
+.fontsize{font: 1.25em sans-serif;
+
+}
+.highttopbottom{
+    padding:2em;
+}
+.border{
+border: #000 1pc solid;
+padding: 25px;width: 75%;
+border-radius: 5px;
+box-shadow: .5px .5px 1px #999;
+}
+.highttop{margin-top: 2em;
+
+}
+.ides{
+    background:rgba(0,0,0,.05);
+    margin-top:-25px;padding-left:25px;margin-left: -25px;padding-top: 10px ;padding-bottom: 10px ;margin-right: -25px
+}
+
+.block{
+    padding-left: 25px;padding-right: 25px; 
+    margin-right: -26px;margin-left: -25px;
+    padding-top: 10px;
+
+}
+.block:hover{
+    border-radius: 5px; box-shadow: 2px 3px 1px 4px rgba(97, 101, 185, 0.3);
+}
+.block>a{text-decoration: none;
+    color:  #000;
+
+}
+.center1{background:#000;
+    align-content: center;
+}.center:hover{
+    border-radius: 5px; box-shadow: 2px 3px 1px 4px rgba(97, 101, 185, 0.3);
+}
